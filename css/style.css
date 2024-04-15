@@ -15,3 +15,31 @@
 ul {
     list-style-type: none;
 }
+
+/* tutto inerente al nav */
+nav {
+    background-color: white;
+}
+
+nav>ul>li {
+    padding: 1rem;
+    align-self: center;
+}
+
+button {
+    border-radius: 0;
+    border: none;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: #0061ff;
+}
+
+img[alt=logo-dropbox] {
+    vertical-align: middle;
+}
+
+/* sezione jumbotron */
+.jumbotron {
+    max-width: 70%;
+    margin: 2rem auto;
+}
