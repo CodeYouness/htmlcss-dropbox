@@ -112,7 +112,7 @@ header>span {
 /* struttura colonne */
 
 .card {
-    width: calc((100%/3) - 2rem);
+    width: calc((100%/3) - 1.5rem);
     border: 1px solid lightgrey;
 }
 
@@ -125,3 +125,42 @@ header>span {
 .piano-info {
     padding: 2rem 1rem;
 }
+
+.price {
+    padding: 0.5rem 0;
+    font-weight: 900;
+    font-size: 0.7rem;
+}
+
+.period {
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+
+.piano-info>ul>li {
+    padding: 0.5rem 0;
+}
+
+.piano-info>button {
+    width: 100%;
+    margin: 2rem 0 1.5rem;
+}
+
+hr {
+    margin: 2rem 0 2rem;
+    width: 25%;
+    border-color: lightgrey;
+}
+
+.piano-info>ul:last-child {
+    margin: 1.5rem 0;
+}
+
+/* .piano-info>ul:last-child>li::before {
+    content: "\2713";
+    display: inline-block;
+    width: 1rem;
+    margin-right: 0.5em;
+    color: #0061ff;
+} */
