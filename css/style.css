@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 .sp-bt {
@@ -14,6 +15,10 @@
 
 ul {
     list-style-type: none;
+}
+
+.bg-cyan {
+    background-color: #b4d0e7;
 }
 
 /* tutto inerente al nav */
@@ -41,5 +46,32 @@ img[alt=logo-dropbox] {
 /* sezione jumbotron */
 .jumbotron {
     max-width: 70%;
-    margin: 2rem auto;
+    margin: 0 auto;
+    padding-top: 3rem;
+}
+
+h1 {
+    font-size: 3.7rem;
+}
+
+.content {
+    padding: 3rem 0 1rem;
+}
+
+img[alt=jumbo-image] {
+    max-width: 100%;
+    height: auto;
+}
+
+.testo * {
+    margin-bottom: 2rem;
+}
+
+.testo {
+    max-width: 38%;
+}
+
+#arrow {
+    position: relative;
+    top: 4rem;
 }
