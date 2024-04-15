@@ -114,6 +114,7 @@ header>span {
 .card {
     width: calc((100%/3) - 1.5rem);
     border: 1px solid lightgrey;
+    margin-bottom: 2rem;
 }
 
 .piano {
@@ -164,3 +165,23 @@ hr {
     margin-right: 0.5em;
     color: #0061ff;
 } */
+
+section>footer {
+    border: 1px solid lightgrey;
+}
+
+.button {
+    width: 30%;
+}
+
+#padding {
+    padding: 1rem 0 2rem;
+}
+
+.font-style {
+    font-size: 0.7rem;
+}
+
+#w {
+    width: 60%;
+}
