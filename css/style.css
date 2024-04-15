@@ -98,7 +98,11 @@ img[alt=jumbo-image] {
 
 h2 {
     font-size: 2rem;
-    padding: 4rem 0;
+    padding-top: 4rem;
+}
+
+input {
+    margin: 4rem 0 3rem;
 }
 
 header>span {
@@ -106,3 +110,18 @@ header>span {
 }
 
 /* struttura colonne */
+
+.card {
+    width: calc((100%/3) - 2rem);
+    border: 1px solid lightgrey;
+}
+
+.piano {
+    text-align: center;
+    border-bottom: 1px solid lightgrey;
+    padding: 0.5rem;
+}
+
+.piano-info {
+    padding: 2rem 1rem;
+}
