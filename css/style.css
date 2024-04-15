@@ -43,11 +43,18 @@ img[alt=logo-dropbox] {
     vertical-align: middle;
 }
 
+body>header {
+    position: fixed;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
 /* sezione jumbotron */
 .jumbotron {
     max-width: 80%;
     margin: 0 auto;
-    padding-top: 4rem;
+    padding-top: 10rem;
 }
 
 h1 {
@@ -83,3 +90,19 @@ img[alt=jumbo-image] {
     vertical-align: bottom;
     font-size: 2rem;
 }
+
+.width {
+    max-width: 60%;
+    margin: 6rem auto 0;
+}
+
+h2 {
+    font-size: 2rem;
+    padding: 4rem 0;
+}
+
+header>span {
+    margin-right: 3rem;
+}
+
+/* struttura colonne */
