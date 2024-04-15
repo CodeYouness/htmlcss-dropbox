@@ -45,33 +45,41 @@ img[alt=logo-dropbox] {
 
 /* sezione jumbotron */
 .jumbotron {
-    max-width: 70%;
+    max-width: 80%;
     margin: 0 auto;
-    padding-top: 3rem;
+    padding-top: 4rem;
 }
 
 h1 {
+    max-width: 90%;
     font-size: 3.7rem;
 }
 
 .content {
-    padding: 3rem 0 1rem;
+    padding-top: 3rem;
 }
 
+/* img */
 img[alt=jumbo-image] {
-    max-width: 100%;
-    height: auto;
+    max-width: 700px;
+    position: absolute;
 }
 
-.testo * {
-    margin-bottom: 2rem;
+.jb-img {
+    position: relative;
+}
+
+.testo>button {
+    margin: 2rem 0;
 }
 
 .testo {
-    max-width: 38%;
+    max-width: 34%;
 }
 
 #arrow {
-    position: relative;
-    top: 4rem;
+    margin: 5rem 0 1rem;
+    display: inline-block;
+    vertical-align: bottom;
+    font-size: 2rem;
 }
