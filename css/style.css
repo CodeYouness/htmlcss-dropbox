@@ -261,3 +261,32 @@ img[alt=team-business] {
 #red {
     background-color: #ff1c1c;
 }
+
+#dark-red {
+    background-color: #d5001f;
+}
+
+#light-cyan {
+    background-color: #b4d0e7;
+}
+
+#blue {
+    background-color: #0d2481;
+}
+
+#yellow {
+    background-color: #ffd830;
+}
+
+#measure {
+    padding: 2rem;
+    background-color: #f5f5f5;
+}
+
+#measure>img[alt=designit] {
+    width: 50%;
+}
+
+#measure>p:last-child {
+    padding-top: 3rem;
+}
