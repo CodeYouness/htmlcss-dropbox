@@ -203,12 +203,21 @@ img[alt=team-business] {
     border: 2px solid gray;
 }
 
-#margin {
-    padding: 3rem 0 1rem;
+.margin {
+    margin: 3rem 0 1rem;
 }
 
 /* 6card section */
 
 .wrap {
     flex-wrap: wrap;
+}
+
+.inline {
+    display: inline-block;
+}
+
+#width {
+    width: 60%;
+    margin: 0;
 }
