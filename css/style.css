@@ -221,3 +221,29 @@ img[alt=team-business] {
     width: 60%;
     margin: 0;
 }
+
+/* university card */
+
+.box {
+    width: calc(100%/3);
+}
+
+.university-card {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.university-card>img {
+    width: 50%;
+    filter: invert(100%);
+}
+
+#sponsor {
+    flex-grow: 1;
+}
+
+#green {
+    background-color: #a2d39b;
+    border: 10px solid #d1e9cd;
+}
