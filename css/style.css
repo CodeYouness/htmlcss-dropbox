@@ -307,3 +307,7 @@ img[alt=team-business] {
     color: black;
     padding: 0.5rem 2rem;
 }
+
+section>hr {
+    width: 100%;
+}
