@@ -290,3 +290,20 @@ img[alt=team-business] {
 #measure>p:last-child {
     padding-top: 3rem;
 }
+
+#blue-article {
+    margin: 0 auto;
+    padding: 4rem 0;
+}
+
+#color-bordeaux {
+    color: #61082b;
+    padding: 0;
+    width: 60%;
+}
+
+#bg-white {
+    background-color: white;
+    color: black;
+    padding: 0.5rem 2rem;
+}
