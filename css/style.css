@@ -230,6 +230,7 @@ img[alt=team-business] {
 
 .university-card {
     width: 50%;
+    height: 50%;
     justify-content: center;
     align-items: center;
 }
@@ -240,10 +241,23 @@ img[alt=team-business] {
 }
 
 #sponsor {
-    flex-grow: 1;
+    margin-top: 4rem;
+    height: calc(100vw/3);
 }
 
 #green {
     background-color: #a2d39b;
     border: 10px solid #d1e9cd;
+}
+
+#bordeaux {
+    background-color: #61082b;
+}
+
+#lightblue {
+    background-color: #0093ce;
+}
+
+#red {
+    background-color: #ff1c1c;
 }
