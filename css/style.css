@@ -161,14 +161,6 @@ hr {
     margin: 1.5rem 0;
 }
 
-/* .piano-info>ul:last-child>li::before {
-    content: "\2713";
-    display: inline-block;
-    width: 1rem;
-    margin-right: 0.5em;
-    color: #0061ff;
-} */
-
 section>footer {
     border: 1px solid lightgrey;
 }
@@ -337,4 +329,31 @@ div.piano-info>ul:last-of-type>li::before {
     font: var(--fa-font-solid);
     content: "\f00c";
     color: blue;
+}
+
+body>footer {
+    margin-top: 5rem;
+    background-color: black;
+    color: white;
+    padding: 2rem 0 2rem;
+}
+
+footer ul li:first-child {
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+footer ul li {
+    padding-bottom: 1rem;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
+
+footer ul {
+    width: calc((100%/5) - 2rem);
+}
+
+#small {
+    width: 15%;
 }
