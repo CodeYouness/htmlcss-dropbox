@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    scroll-behavior: smooth;
 }
 
 .sp-bt {
@@ -19,6 +20,11 @@ ul {
 
 .bg-cyan {
     background-color: #b4d0e7;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 /* tutto inerente al nav */
@@ -112,7 +118,7 @@ header>span {
 /* struttura colonne */
 
 .card {
-    width: calc((100%/3) - 1.5rem);
+    width: calc((100%/3) - 1.3rem);
     margin: 3rem 0 2rem;
 }
 
@@ -141,10 +147,9 @@ header>span {
     margin-bottom: 3rem;
 }
 
-
 .piano-info>ul>li {
     padding: 0.5rem 0.5rem 1rem;
-    text-indent: -1em;
+    text-indent: -1rem;
 }
 
 .piano-info>button {
@@ -357,4 +362,8 @@ footer ul {
 
 #small {
     width: 15%;
+}
+
+footer p:last-child {
+    color: #999b9a;
 }
