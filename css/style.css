@@ -311,3 +311,30 @@ img[alt=team-business] {
 section>hr {
     width: 100%;
 }
+
+/* loghi delle liste */
+.user::before {
+    font: var(--fa-font-solid);
+    content: "\f007";
+}
+
+.folder::before {
+    font: var(--fa-font-solid);
+    content: "\f07b";
+}
+
+.team::before {
+    font: var(--fa-font-solid);
+    content: "\f0c0";
+}
+
+.share::before {
+    font: var(--fa-font-solid);
+    content: "\f1e0";
+}
+
+div.piano-info>ul:last-of-type>li::before {
+    font: var(--fa-font-solid);
+    content: "\f00c";
+    color: blue;
+}
